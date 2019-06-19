@@ -1,9 +1,9 @@
 var cLine = [];
 // Current line while nobody is in the Deli
 
-function takeANumber(name) {
-  cLine.push(`${name}`);
-  return `Welcome, ${name}. You are number ${cLine.length} in line.`;
+function takeANumber(cLine, ticketNo) {
+  cLine.push(`${ticketNo}`);
+  return `Welcome. You are number ${ticketNo}.`;
   }
   
 function nowServing(cLine) {
