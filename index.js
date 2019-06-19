@@ -7,10 +7,6 @@ function takeANumber(cLine, ticketNo) {
   }
   
 function nowServing(cLine) {
-  let i = 0;
-  while (i < cLine.length) {
-    i++;
-  }
   if (cLine.length === 0) {
     return "There is nobody waiting to be served!";
 } else {
